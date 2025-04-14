@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #4CAF50;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+.logo {
+    font-size: 22px;
+    font-weight: 600; /* Semi-bold para el logo */
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+
+.button {
+    padding: 4px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500; /* Medium weight para los botones */
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-decoration: none;
+  }
+  .main-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
