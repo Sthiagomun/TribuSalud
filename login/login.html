@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="login_style.css">
 </head>
 <body>
-    <div class="header-container">
-        <div class="logo">EPS | TribuSalud</div>
-    </div>
+    <header>
+        <div class="header-container">
+            <div class="logo">IPS | TribuSalud</div>
+        </div>
+    </header>
     <!-- Campos de login -->
     <div class="login-form">
         <div class="input-group">
-            <span class="icon">👤</span>
+            <span class="icon">
+                <img src="user.png" alt="Usuario" class="user-icon">
+            </span>
             <input type="text" placeholder="Usuario">
         </div>
         <div class="input-group">
-            <span class="icon">❌</span>
+            <span class="icon">
+                <img src="padlock.png" alt="Contraseña" class="lock-icon">
+            </span>
             <input type="password" placeholder="Contraseña">
-            <span class="icon-right">👁️</span>
+            <span class="icon-right">
+                <img src="view.png" alt="Mostrar contraseña" class="eye-icon">
+            </span>
         </div>
         
         <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
@@ -30,10 +38,10 @@
         </div>
         
         <div class="footer">
-            <a href="#">¿Quiénes somos?</a>
+            <a href="/about_us/About-us.html">¿Quiénes somos?</a>
         </div>
     </div>
     <!-- Vinculación del archivo JavaScript -->
-    <script src="login_index.js"></script>
+    <script src="login_script.js"></script>
 </body>
 </html>
