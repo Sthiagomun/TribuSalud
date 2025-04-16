@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion | TribuSalud</title>
-    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="forgot_style.css">
 </head>
 <body>
     <header>
@@ -22,19 +22,27 @@
         </div>
         <div class="input-group">
             <span class="icon">
-                <img src="padlock.png" alt="Contraseña" class="lock-icon">
+                <img src="driver-license.png" alt="Tipo de Documento" class="lock-icon">
             </span>
-            <input type="password" placeholder="Contraseña">
-            <span class="icon-right">
-                <img src="view.png" alt="Mostrar contraseña" class="eye-icon">
-            </span>
+            <select id="document-type" class="dropdown">
+                <option value="" disabled selected>Selecciona un tipo de documento</option>
+                <option value="cc">Cédula de Ciudadanía</option>
+                <option value="ce">Cédula de Extranjería</option>
+                <option value="ti">Tarjeta de Identidad</option>
+                <option value="passport">Pasaporte</option>
+            </select>
         </div>
+        <div class="input-group">
+            <span class="icon">
+                <img src="id.png" alt="Numero_Documento" class="lock-icon">
+            </span>
+            <input type="text" placeholder="Numero de Documento" id="document-number">
+        </div>
+
         
-        <a href="/forgot_password/forgot_index.html" class="forgot-password">¿Olvidaste tu contraseña?</a>
         
         <div class="actions">
-            <button id="login-button">Acceder</button>
-            <button id="register-button">Registrarse</button>
+            <button id="Continue-button">Continuar</button>
         </div>
         
         <div class="footer">
@@ -42,6 +50,6 @@
         </div>
     </div>
     <!-- Vinculación del archivo JavaScript -->
-    <script src="login_script.js"></script>
+    <script src="forgot_script.js"></script>
 </body>
 </html>

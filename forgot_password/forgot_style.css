@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.header-container {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #4CAF50;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600; /* Semi-bold para el logo */
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0 auto; /* Esto ayuda a centrar si hay espacio */
+}
+.login-form {
+    max-width: 400px;
+    align-items: center;
+    margin: 20px auto; /* Agrega un margen superior */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Alinea los íconos y el input verticalmente */
+    position: relative; /* Para posicionar los íconos dentro del input */
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 40px; /* Espacio para los íconos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    box-sizing: border-box;
+    padding-left: 40px; /* Espacio para el ícono del usuario */
+}
+.input-group .icon {
+    position: absolute;
+    left: 10px; /* Posiciona el ícono dentro del input */
+    font-size: 18px;
+    color: #777;
+}
+.input-group .icon-right {
+    position: absolute;
+    right: 10px; /* Posiciona el ícono a la derecha */
+    font-size: 18px;
+    color: #777;
+    cursor: pointer; /* Para íconos interactivos como mostrar/ocultar contraseña */
+}
+.user-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    left: 5px; /* Mueve el ícono más hacia la izquierda */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+}
+.lock-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    left: 5px; /* Mueve el ícono más hacia la izquierda */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+    pointer-events: none; /* Evita que el ícono interfiera con el clic */
+}
+.eye-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    right: 10px; /* Alinea el ícono a la derecha del input */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #45a049;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.actions {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin-top: 20px; /* Agrega un margen superior para separar el botón */
+}
+
+#Continue-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    cursor: pointer;
+    display: inline-block; /* Asegura que el botón respete el centrado */
+}
+
+#Continue-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el dropdown */
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    box-sizing: border-box;
+    appearance: none; /* Elimina el estilo predeterminado del navegador */
+    background-color: #fff;
+    margin-left: 40px; /* Espacio para el ícono */
+}
