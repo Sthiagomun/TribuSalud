@@ -1,10 +1,7 @@
-// Botón para volver
-document.getElementById('button-back').onclick = function () {
-    window.location.href = '/login/login.html';
-};
-
 // Validar que todos los campos estén llenos antes de continuar
-document.getElementById('login-button').addEventListener('click', function (event) {
+document.getElementById('Continue-button').addEventListener('click', function (event) {
+    event.preventDefault(); // Evita el comportamiento predeterminado del botón
+
     const userInput = document.querySelector('input[placeholder="Usuario"]');
     const documentType = document.getElementById('document-type');
     const documentNumber = document.getElementById('document-number');
@@ -28,6 +25,7 @@ document.getElementById('login-button').addEventListener('click', function (even
         return;
     }
 
-    // Si todos los campos están llenos, se puede continuar
+    // Si todos los campos están llenos, redirige a la siguiente página
     alert('Formulario enviado correctamente.');
+    window.location.href = '../code_restart/code_index.html';
 });
