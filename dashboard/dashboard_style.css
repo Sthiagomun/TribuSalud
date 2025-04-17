@@ -34,3 +34,18 @@
     font-family: 'Poppins', Arial, sans-serif;
     text-decoration: none;
   }
+
+  .btnCancelarCita , .btnSolicitarCita, .btnHistorialClinico {
+    padding: 4px 10px;
+    background-color: cornflowerblue; 
+    color: white; /* Texto en blanco para mejor contraste */
+    border: 1px solid cornflowerblue; /* Borde ligeramente más oscuro */
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: fit-content; /* El botón tendrá el ancho de su contenido */
+    text-decoration: none;
+  }
