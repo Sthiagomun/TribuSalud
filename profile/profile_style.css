@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: cornflowerblue;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.logo {
+    font-size: 22px;
+    font-weight: 600; /* Semi-bold para el logo */
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.volver-button {
+    padding: 4px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500; /* Medium weight para los botones */
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.volver-button:hover {
+    background-color: #e0e0e0;
+}
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    max-width: 400px;
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+.logo-image {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Contenedor para la imagen de perfil y el título */
+.profile-header {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para la imagen de perfil */
+.profile-image {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+
+/* Estilo para el título del perfil */
+.profile-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+    margin: 0; /* Elimina el margen predeterminado del título */
+}
+
+/* Estilo para los elementos <span> dentro de los atributos */
+.profile-info span {
+    font-weight: normal; /* Quita la negrilla */
+    color: #333; /* Opcional: ajusta el color del texto */
+}
+
+/* Contenedor para la imagen de afiliado */
+.afiliated {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+    margin-bottom: 20px; /* Espacio inferior entre el contenedor y otros elementos */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+/* Estilo para la imagen de afiliado */
+.afiliated-image {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.status {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+.status-image {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+.ips {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+.ips-image {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+.doctor {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+.doctor-image {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Asegura que la imagen sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+
+/* Contenedor para la clase other-info */
+.other-info {
+    text-align: left; /* Alinea todo el contenido a la izquierda */
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    gap: 20px; /* Espacio entre los elementos */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para los elementos dentro de other-info */
+.other-info div {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: flex-start; /* Alinea horizontalmente hacia la izquierda */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho disponible */
+}
+
+/* Estilo para las imágenes dentro de other-info */
+.other-info img {
+    width: 50px; /* Ajusta el tamaño de las imágenes */
+    height: 50px; /* Asegura que las imágenes sean cuadradas */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilo para los textos dentro de other-info */
+.other-info p {
+    margin: 0; /* Elimina márgenes predeterminados */
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
