@@ -35,6 +35,26 @@
     text-decoration: none;
   }
 
+  .serviciosmasusados {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espacio entre columnas */
+    margin-top: 30px
+  }
+  
+  .serviciosmasusados-1, .serviciosmasusados-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .img1, .img2 {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
   .btnCancelarCita , .btnSolicitarCita, .btnHistorialClinico {
     padding: 4px 10px;
     background-color: cornflowerblue; 
@@ -48,4 +68,9 @@
     transition: background-color 0.3s;
     width: fit-content; /* El botón tendrá el ancho de su contenido */
     text-decoration: none;
+  }
+
+  .btnCancelarCita:hover , .btnSolicitarCita:hover, .btnHistorialClinico:hover {
+    background-color: rgb(47, 108, 221);
+    transform: scale(1.03)
   }
