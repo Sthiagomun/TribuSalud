@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TribuSalud | Codigo de Reestablecimiento</title>
-    <link rel="stylesheet" href="forgot_style.css">
+    <title>Codigo Reestablecer | TribuSalud</title>
+    <link rel="stylesheet" href="code_style.css">
 </head>
 <body>
     <header>
@@ -12,6 +12,44 @@
             <div class="logo">IPS | TribuSalud</div>
         </div>
     </header>
-    
+    <!-- Campos de login -->
+    <div class="login-form">
+        <p>
+            Te hemos enviado un correo con un codigo de verificacion, por favor ingresa el codigo para continuar.
+        </p>
+        <div class="input-group">
+            <span class="icon">
+                <img src="password.png" alt="Usuario" class="user-icon">
+            </span>
+            <input type="text" placeholder="Ingresa el codigo">
+        </div>
+        <div class="input-group">
+            <span class="icon">
+                <img src="padlock.png" alt="Tipo de Documento" class="lock-icon">
+            </span>
+            <input type="password" placeholder="Ingresa tu nueva Contraseña" id="new-password">
+        </div>
+        <div class="input-group">
+            <span class="icon">
+                <img src="padlock.png" alt="Numero_Documento" class="lock-icon">
+            </span>
+            <input type="password" placeholder="Ingresa de nuevo la Nueva Contraseña" id="again-new-password">
+        </div>
+        <div class="input-group">
+            <label class="checkbox-label">
+                <input type="checkbox" id="toggle-passwords">
+                <span>Mostrar contraseñas</span>
+            </label>
+        </div>
+        <div class="actions">
+            <button id="Continue-button">Continuar</button>
+        </div>
+        
+        <div class="footer">
+            <a href="/about_us/About-us.html">¿Quiénes somos?</a>
+        </div>
+    </div>
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="code_script.js"></script>
 </body>
 </html>

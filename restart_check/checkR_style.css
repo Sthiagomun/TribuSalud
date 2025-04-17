@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.header-container {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: cornflowerblue;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600; /* Semi-bold para el logo */
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0 auto; /* Esto ayuda a centrar si hay espacio */
+}
+/* Contenedor principal */
+.login-form {
+    max-width: 400px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin: 20px auto; /* Agrega un margen superior */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilo para el ícono de check */
+.logo-image {
+    display: block;
+    margin: 20px auto; /* Centra el ícono horizontalmente */
+    width: 100px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantiene la proporción del ícono */
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+#continue-button {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    cursor: pointer;
+    display: inline-block; /* Asegura que el botón respete el centrado */
+}
+
+#continue-button:hover {
+    background-color: rgb(74, 110, 177);
+}
