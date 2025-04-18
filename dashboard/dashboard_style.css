@@ -102,8 +102,8 @@
   font-weight: 500;
   font-family: 'Poppins', Arial, sans-serif;
   cursor: pointer;
-  transition: background-color 0.3s;
-  width: fit-content; /* El botón tendrá el ancho de su contenido */
+  transition: 0.3s;
+  width: 150px; /* los botones tendran el mismo ancho */
   text-decoration: none;
 }
 .btnCancelarCita:hover , .btnSolicitarCita:hover, .btnHistorialClinico:hover {
