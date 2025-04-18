@@ -9,19 +9,16 @@
   background-color: cornflowerblue;
   font-family: 'Poppins', Arial, sans-serif;
 }
-
 .logo {
   font-size: 22px;
   font-weight: 600; /* Semi-bold para el logo */
   color: white;
   font-family: 'Poppins', Arial, sans-serif;
 }
-
 .buttons-container {
     display: flex;
     gap: 10px;
   }
-
 .btn {
     padding: 4px 10px;
     background-color: #f0f0f0;
@@ -34,27 +31,50 @@
     font-family: 'Poppins', Arial, sans-serif;
     text-decoration: none;
   }
+  .btn:hover {
+    background-color: #f0f0f0b0;
+    transform: scale(1.03)
+  }
 
+  .Inicio {
+    margin-top: 70px;
+  }
+  .text-banner {
+   text-align: left;
+  max-width: 800px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 22px;
+  }
+
+  .Inicio2 {
+    margin-top: 43px;
+  }
+  .subtitulo {
+    text-align: left;
+  max-width: 800px;
+  margin-right: 70px;
+  margin-left: 70px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 22px;
+  }
   .serviciosmasusados {
     display: flex;
     justify-content: center;
     gap: 40px; /* Espacio entre columnas */
-    margin-top: 30px
+    align-items: flex-start;
   }
-  
   .serviciosmasusados-1, .serviciosmasusados-2{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
+    align-items: center;
   }
-  
   .img1, .img2 {
     width: 40px;
     height: 40px;
-    margin-bottom: 10px;
   }
-  
   .btnCancelarCita , .btnSolicitarCita, .btnHistorialClinico {
     padding: 4px 10px;
     background-color: cornflowerblue; 
@@ -69,11 +89,11 @@
     width: fit-content; /* El botón tendrá el ancho de su contenido */
     text-decoration: none;
   }
-
   .btnCancelarCita:hover , .btnSolicitarCita:hover, .btnHistorialClinico:hover {
     background-color: rgb(47, 108, 221);
     transform: scale(1.03)
   }
+  
 .profile-button {
   padding: 4px 10px;
   background-color: #f0f0f0;
