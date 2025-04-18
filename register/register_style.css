@@ -107,6 +107,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
   }
   
   /* Título del formulario */
@@ -198,5 +199,11 @@
   select,
   button {
     transition: all 0.3s ease;
+  }
+  .logo {
+    font-size: 22px;
+    font-weight: 600; /* Semi-bold para el logo */
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
   }
   
