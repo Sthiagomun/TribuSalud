@@ -18,10 +18,10 @@
 }
 .buttons-container {
   display: flex;
-  gap: 10px;
+  gap: 10px; /*Espacio entre botones*/
   }
-.btn {
-  padding: 4px 10px;
+.Citas-y-Turnos, .Actualizar-Datos, .Cerrar-Sesion {
+  padding: 4px 10px; /*Espacio interno de los botones*/
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: black;
@@ -32,12 +32,12 @@
   font-family: 'Poppins', Arial, sans-serif;
   text-decoration: none;
 }
-.btn:hover {
+.Citas-y-Turnos:hover, .Actualizar-Datos:hover, .Cerrar-Sesion:hover {
   background-color: #f0f0f0b0;
-  transform: scale(1.03)
+  transform: scale(1.03) /*Agranda al pasar el cursor*/
 }
 .profile-button {
-  padding: 4px 10px;
+  padding: 4px 10px; /*Espacio interno de los botones*/
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: black;
@@ -50,25 +50,26 @@
 }
 .profile-button:hover {
   background-color: #f0f0f0b0;
-  transform: scale(1.03)
+  transform: scale(1.03) /*Agranda al pasar el cursor*/
 }
 
 .Inicio {
-  margin-top: 70px;
+  margin-top: 70px; /*Espacio arriba del contenido*/
 }
 .text-banner {
-  text-align: left;
-  max-width: 800px;
+  text-align: left; /*Alineación a la izquierda*/
+  max-width: 800px; 
   margin-right: 70px;
   margin-left: 70px;
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 22px;
 }
 .Inicio2 {
-  margin-top: 43px;
+  margin-top: 43px; /*Espacio arriba del contenido*/
+  margin-bottom: 70px; /*Espacio bajo del contenido*/
 }
 .subtitulo {
-  text-align: left;
+  text-align: left; /*Alineación a la izquierda*/
   max-width: 800px;
   margin-right: 70px;
   margin-left: 70px;
@@ -84,7 +85,7 @@
 }
 .serviciosmasusados-1, .serviciosmasusados-2{
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*Organiza en columna*/
   gap: 10px;
   align-items: center;
 }
