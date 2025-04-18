@@ -74,3 +74,15 @@
     background-color: rgb(47, 108, 221);
     transform: scale(1.03)
   }
+.profile-button {
+  padding: 4px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500; /* Medium weight para los botones */
+  cursor: pointer;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-decoration: none;
+  }
