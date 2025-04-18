@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrarse | Tu Cita Medica</title>
+  <link rel="stylesheet" href="register_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1>IPS | TribuSalud</h1>
+        <button class="back-button" onclick="window.history.back()">Volver</button>
+      </header>
+
+
+    <div class="form-card">
+        <h2>Registrarse</h2>
+        <form action="#" method="post">
+          <div class="input-icon">
+            <i class="fas fa-id-card"></i>
+            <select id="tipo-documento" name="tipo-documento" required>
+              <option value="">Tipo de documento</option>
+              <option value="ti">Tarjeta de Identidad</option>
+              <option value="cc">Cédula de Ciudadanía</option>
+              <option value="ce">Cédula de Extranjería</option>
+            </select>
+          </div>
+
+          <div class="input-icon">
+            <i class="fas fa-plus"></i>
+            <input type="text" id="numero-documento" name="numero-documento" placeholder="Número de Documento" required>
+          </div>
+
+          <div class="input-icon">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+          </div>
+         
+          <div class="input-icon password-toggle">
+            <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+            <i class="fas fa-eye"></i>
+        </div>
+
+          <div class="input-icon">
+            <i class="fas fa-hospital"></i>
+            <select id="eps" name="eps" required>
+              <option value="">EPS</option>
+              <option value="capital">Capital Salud</option>
+              <option value="compensar">Compensar</option>
+              <option value="coosalud">Coosalud</option>
+              <option value="famisanar">Famisanar</option>
+              <option value="nueva">Nueva EPS</option>
+              <option value="saludtotal">Salud Total</option>
+              <option value="sura">Sura</option>
+            </select>
+          </div>
+
+          <label class="checkbox-container">
+            <input type="checkbox" name="terminos" required>
+            Acepto los <a href="#">Términos y Condiciones</a>
+          </label>
+      
+          <button type="submit">Continuar</button>
+        </form>
+      </div>
+  </div>
+
+  <!--Archico de JavaScript-->
+  <script src="register_script.js"></script>
+</body>
+</html>

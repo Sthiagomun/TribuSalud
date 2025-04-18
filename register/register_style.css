@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); 
+
+.input-icon {
+    position: relative;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2563eb; /* Azul */
+    color: #ffffff; /* Blanco */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+  }
+
+  .registro-container h1 {
+    font-size: 2em;
+    color: #121213; /* Negro */
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .back-button {
+    background-color: #ffffff; /* Blanco */
+    color: #2563eb; /* Azul */
+    border: none;
+    padding: 5px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #2563eb; /* Azul */
+    color: #ffffff; /* Blanco */
+  }
+  
+  body.dark {
+    background-color: #111827;
+    color: #f3f4f6;
+  }
+  
+  body.dark .form-card {
+    background-color: #1f2937;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  body.dark input,
+  body.dark select {
+    background-color: #374151;
+    color: #f9fafb;
+    border-color: #4b5563;
+  }
+  
+  .dark-toggle {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background: none;
+    border: rgb(56, 56, 56);
+    font-size: 1.0em;
+    cursor: zoom-in;
+    color: #0f0f0f;
+  }
+  
+  .input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2563eb;
+  }
+  
+  .input-icon input,
+  .input-icon select {
+    padding-left: 35px; /* espacio para el ícono */
+  }
+  
+  .error-message {
+    color: #dc2626;
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: none;
+  }
+  
+  .password-toggle {
+    position: relative;
+  }
+  
+  /* Estilo general del formulario */
+.form-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Título del formulario */
+  .form-card h2 {
+    font-size: 1.8em;
+    color: #121213; /* Negro */
+    margin-bottom: 20px;
+  }
+  
+  /* Etiquetas e íconos */
+  .input-icon {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000; /* Negro */
+    font-size: 1.2em;
+  }
+  
+  .input-icon input,
+  .input-icon select {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Espacio para el ícono */
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-icon input:focus,
+  .input-icon select:focus {
+    border-color: #2563eb; /* Azul */
+    outline: none;
+  }
+  
+  /* Checkbox y términos */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checkbox-container a {
+    color: #2563eb; /* Azul */
+    text-decoration: none;
+  }
+  
+  .checkbox-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botón de continuar */
+  .form-card button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #2563eb; /* Azul */
+    color: #ffffff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-card button:hover {
+    background-color: #11328d; /* Azul más oscuro */
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  input,
+  select,
+  button {
+    transition: all 0.3s ease;
+  }
+  
