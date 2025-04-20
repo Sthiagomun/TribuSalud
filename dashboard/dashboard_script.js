@@ -1,7 +1,11 @@
 document.querySelector('.profile-button').onclick = function () {
     window.location.href = '../profile/profile_index.html';
-};
+}; /*boton del perfil conectado */
 
 document.querySelector('.Cerrar-Sesion').onclick = function () {
     window.location.href = '../login/login.html';
-};
+}; /*boton de cerrar sesion conectado*/
+
+document.querySelector('.btnSolicitarCita').onclick = function () {
+    window.location.href = '../request_an_appointment/request_an_appointment_index.html';
+}; /*boton del solicitar cita conectado */

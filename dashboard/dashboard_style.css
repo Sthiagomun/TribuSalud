@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/*Estilos de la navbar*/
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,7 @@
   font-family: 'Poppins', Arial, sans-serif;
   cursor: pointer;
 }
-.buttons-container {
+.btn-container {
   display: flex;
   gap: 10px; /*Espacio entre botones*/
   }
@@ -53,6 +54,7 @@
   transform: scale(1.03) /*Agranda al pasar el cursor*/
 }
 
+/*Estilos del contenido*/
 .Inicio {
   margin-top: 70px; /*Espacio arriba del contenido*/
 }

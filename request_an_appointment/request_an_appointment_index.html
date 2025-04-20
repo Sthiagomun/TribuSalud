@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Cita</title>
+    <link rel="stylesheet" href="request_an_appointment_style.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="logo">IPS | TribuSalud</div>
+            <div class="btn">
+                <button class="btnCerrarSesion">Cerrar Sesion</button></a>
+                <button class="btnInicio">Inicio</button></a>
+            </div>
+        </div>
+      </header>
+      <section class="SolicitarCita">
+        <div class="cita">
+            <h1>Por favor diligencia los siguientes datos del paciente:</h1>
+            <form>
+                <div class="SelectDocumento">
+                  <label for="tipo-documento">Tipo de documento</label>
+                  <select id="tipo-documento" name="tipo-documento" required>
+                    <option value="">Tipo de documento</option>
+                      <option value="ti">Tarjeta de Identidad</option>
+                      <option value="cc">Cédula de Ciudadanía</option>
+                      <option value="ce">Cédula de Extranjería</option>
+                  </select>
+                </div>
+          
+                <div class="SelectNumDocumento">
+                  <label for="NumeroDocumento">Número de identificación</label>
+                  <input type="text" id="NumeroDocumento" name="NumeroDocumento" placeholder="Número de Documento" required>
+                </div>
+
+                <div class="SelectFechaNacimiento">
+                  <label for="fecha">Fecha de nacimiento</label>
+                  <input type="date" id="fecha" name="fecha" required>
+                </div>
+          
+                <div class="SelectNumeroTelefono">
+                  <label for="telefono">Número de teléfono</label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="Ingrese el número de teléfono" required>
+                </div>
+          
+                <div class="terminos">
+                  <input type="checkbox" id="terminos">
+                  <label for="terminos">ACEPTO TÉRMINOS Y CONDICIONES</label>
+                </div>
+          
+                <button type="submit" class="continuar">Continuar</button>
+              </form>
+        </div>
+      </section>
+      <script src="request_an_appointment_script.js"></script>
+</body>
+</html>
