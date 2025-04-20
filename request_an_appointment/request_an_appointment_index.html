@@ -18,7 +18,7 @@
       </header>
       <section class="SolicitarCita">
         <div class="cita">
-            <h1>Por favor diligencia los siguientes datos del paciente:</h1>
+            <h2>Por favor diligencia los siguientes datos del paciente:</h2>
             <form>
                 <div class="SelectDocumento">
                   <label for="tipo-documento">Tipo de documento</label>
@@ -44,13 +44,15 @@
                   <label for="telefono">Número de teléfono</label>
                   <input type="tel" id="telefono" name="telefono" placeholder="Ingrese el número de teléfono" required>
                 </div>
-          
-                <div class="terminos">
-                  <input type="checkbox" id="terminos" required>
-                  <label for="terminos">ACEPTO TÉRMINOS Y CONDICIONES</label>
+
+                <div class="Terminos-y-condiciones">
+                  <label>
+                    <input type="checkbox" name="terminos" required>
+                    Acepto los <a href="../terms/terms_index.html" target="_blank">Términos y Condiciones</a>
+                  </label>
                 </div>
-          
-                <button type="submit" class="continuar">Continuar</button>
+
+                <button type="submit" class="btnContinuar">Continuar</button>
               </form>
         </div>
       </section>

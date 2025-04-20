@@ -33,13 +33,93 @@
   font-family: 'Poppins', Arial, sans-serif;
   text-decoration: none;
 }
+.btnCerrarSesion:hover, .btnInicio:hover {
+  background-color: #f0f0f0b0;
+  transform: scale(1.03) /*Agranda al pasar el cursor*/
+}
+
+/*Estilos del contenido*/
 .cita {
-  text-align: left; /*Alineación a la izquierda*/
+  text-align: left; 
   max-width: 800px; 
   margin-right: 70px;
   margin-left: 70px;
   font-family: 'Poppins', Arial, sans-serif;
   font-size: 22px;
 }
+.SolicitarCita{
+  margin-top: 70px; /*Espacio arriba del contenido*/
+  font-family: 'Poppins', Arial, sans-serif;
+  margin-right: 70px;
+  margin-left: 70px;
+}
 
-/*Estilos del contenido*/
+.SelectDocumento {
+  margin-bottom: 20px; /*Espacio debajo del contenido*/
+}
+.SelectDocumento label {
+  display: block; /*Hace que el label este arriba*/
+  margin-bottom: 8px; /*Espacio entre el label y el select*/
+}
+.SelectDocumento select {
+  width: 30%; /*Espacio ocupado*/
+  padding: 7px 1px; 
+  border-radius: 8px; 
+  font-size: 14px; 
+  background-color: #fff; 
+  color: #333; 
+  border: 1px solid #3a3737; 
+  transition: border-color 0.3s; /*Suaviza el cambio de color*/
+}
+
+.SelectNumDocumento {
+  margin-bottom: 20px;
+}
+.SelectNumDocumento label {
+  display: block; /*Hace que el label este arriba*/
+  margin-bottom: 8px; /*Espacio entre el label y el input*/
+}
+.SelectNumDocumento input {
+  width: 30%; /*Ancho*/
+  padding: 7px; 
+  border-radius: 8px; 
+  font-size: 14px; 
+  background-color: #fff; 
+  color: #333; 
+  border: 1px solid #3a3737; 
+}
+
+.SelectFechaNacimiento {
+  margin-bottom: 20px; 
+}
+.SelectFechaNacimiento label {
+  display: block; 
+  margin-bottom: 8px; 
+}
+.SelectFechaNacimiento input {
+  width: 30%; 
+  padding: 7px; 
+  border-radius: 8px; 
+  font-size: 14px;
+  background-color: #fff;
+  color: #333; 
+  border: 1px solid #3a3737;
+  transition: border-color 0.3s;
+}
+.SelectNumeroTelefono {
+  margin-bottom: 20px; 
+}
+.SelectNumeroTelefono label{
+  display: block; 
+  margin-bottom: 8px; 
+}
+.SelectNumeroTelefono input {
+  width: 30%; 
+  padding: 7px; 
+  border-radius: 8px; 
+  font-size: 14px;
+  background-color: #fff;
+  color: #333; 
+  border: 1px solid #3a3737;
+  transition: border-color 0.3s;
+}
