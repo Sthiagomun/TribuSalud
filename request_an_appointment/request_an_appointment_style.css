@@ -54,6 +54,15 @@
   margin-left: 70px;
 }
 
+.DatosDelPaciente{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*2 columnas iguales*/
+  gap: 90px; /*Espacio entre columnas*/
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
 .SelectDocumento {
   margin-bottom: 20px; /*Espacio debajo del contenido*/
 }
@@ -62,7 +71,7 @@
   margin-bottom: 8px; /*Espacio entre el label y el select*/
 }
 .SelectDocumento select {
-  width: 30%; /*Espacio ocupado*/
+  width: 80%; /*Espacio ocupado*/
   padding: 7px 1px; 
   border-radius: 8px; 
   font-size: 14px; 
@@ -80,7 +89,7 @@
   margin-bottom: 8px; /*Espacio entre el label y el input*/
 }
 .SelectNumDocumento input {
-  width: 30%; /*Ancho*/
+  width: 80%; /*Ancho*/
   padding: 7px; 
   border-radius: 8px; 
   font-size: 14px; 
@@ -97,7 +106,7 @@
   margin-bottom: 8px; 
 }
 .SelectFechaNacimiento input {
-  width: 30%; 
+  width: 80%; 
   padding: 7px; 
   border-radius: 8px; 
   font-size: 14px;
@@ -106,6 +115,7 @@
   border: 1px solid #3a3737;
   transition: border-color 0.3s;
 }
+
 .SelectNumeroTelefono {
   margin-bottom: 20px; 
 }
@@ -114,7 +124,7 @@
   margin-bottom: 8px; 
 }
 .SelectNumeroTelefono input {
-  width: 30%; 
+  width: 80%; 
   padding: 7px; 
   border-radius: 8px; 
   font-size: 14px;
@@ -123,6 +133,7 @@
   border: 1px solid #3a3737;
   transition: border-color 0.3s;
 }
+
 .Terminos-y-condiciones {
   display: flex;
   align-items: center;
@@ -131,11 +142,32 @@
   font-size: 15px;
 }
 .Terminos-y-condiciones a {
-  color: #2563eb; /* Azul */
+  color: #2563eb; /*Azul*/
 }
 .Terminos-y-condiciones a:hover {
   text-decoration: underline;
 }
 .Terminos-y-condiciones input[type="checkbox"] {
   margin-right: 3px;
+  cursor: pointer;
+}
+
+.btnContinuar{
+  padding: 8px 17px;
+  background-color: cornflowerblue; 
+  color: white; /* Texto en blanco para mejor contraste */
+  border: 1px solid cornflowerblue; /* Borde ligeramente más oscuro */
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block; /* Permite que margin auto funcione */
+  margin: 0 auto; /* Centra el botón horizontalmente */
+  width: fit-content; /* El botón tendrá el ancho de su contenido */
+}
+.btnContinuar:hover {
+  background-color: rgb(82, 123, 199);
+  transform: scale(1.03)
 }

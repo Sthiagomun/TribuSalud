@@ -110,6 +110,6 @@
   text-decoration: none;
 }
 .btnCancelarCita:hover , .btnSolicitarCita:hover, .btnHistorialClinico:hover {
-  background-color: rgb(47, 108, 221);
+  background-color: rgb(82, 123, 199);
   transform: scale(1.03)
 }
