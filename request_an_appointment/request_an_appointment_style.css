@@ -123,3 +123,19 @@
   border: 1px solid #3a3737;
   transition: border-color 0.3s;
 }
+.Terminos-y-condiciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Terminos-y-condiciones a {
+  color: #2563eb; /* Azul */
+}
+.Terminos-y-condiciones a:hover {
+  text-decoration: underline;
+}
+.Terminos-y-condiciones input[type="checkbox"] {
+  margin-right: 3px;
+}
