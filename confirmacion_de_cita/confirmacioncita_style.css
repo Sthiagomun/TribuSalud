@@ -1,0 +1,81 @@
+/* confirmacioncita_style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0056d2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.header button {
+    background-color: white;
+    color: #0056d2;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #d4d2d2;
+}
+
+.form-container {
+    text-align: center;
+    background: #fdfdfd;
+    padding: 30px 40px;
+    border-radius: 05%;
+    box-shadow: 0 4px 6px rgba(5, 0, 3, 2.1);
+    width: 500px;
+    margin: 100px auto;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+.form-container h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #202020;
+}
+
+.appointment-details {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.appointment-details p {
+    margin: 5px 0;
+}
+
+.check-icon {
+    font-size: 120px; /* Aumenta el tamaño del chulito */
+    color: #282929; /* Cambia el color al azul del encabezado */
+    margin: 30px 0; /* Ajusta el margen superior e inferior */
+    text-align: center; /* Asegura que esté centrado */
+}
+
+
+
+.confirmation-message {
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

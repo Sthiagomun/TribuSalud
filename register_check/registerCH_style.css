@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0056d2;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins, Arial, Helvetica, sans-serif;     
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header button {
+    background-color: white;
+    color: #0056d2;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #b6bdc0;
+}
+
+.form-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 12px rgba(5, 10, 10, 0.5);
+    width: 400px;
+    margin: 50px auto;
+}
+
+.form-container h1 {
+    font-size: 34px;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.success-message {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.check-icon {
+    font-size: 50px;
+    color: #2108ff;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #093a8a;
+}

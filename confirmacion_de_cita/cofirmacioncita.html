@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Cita</title>
+    <link rel="stylesheet" href="confirmacioncita_style.css"> <!-- Archivo CSS externo -->
+</head>
+<body>
+    <div class="header">
+        <h1>IPS | TribuSalud</h1>
+        <button onclick="window.location.href='index.html'">Volver</button>
+    </div>
+
+    <div class="form-container">
+        <h1>Confirmación de cita</h1>
+        <div class="appointment-details">
+            <p><strong>David Fernando Guerrero</strong></p>
+            <p>CC: 123456789</p>
+            <p>Su cita quedó asignada para el día</p>
+            <p id="appointmentDateDisplay"><strong></strong></p>
+            <p>IPS: TribuSalud</p>
+            <p>Doctora: Melany María Muñoz Arboleda</p>
+        </div>
+        <div class="check-icon">✔</div>
+        <p class="confirmation-message">
+            Su cita ha sido confirmada exitosamente, recuerde llegar con 15 minutos de anticipación.
+        </p>
+    </div>
+
+    <script>
+        // Obtén la fecha guardada en el almacenamiento local
+        const appointmentDate = localStorage.getItem('appointmentDate');
+
+        // Muestra la fecha en la página de confirmación
+        if (appointmentDate) {
+            document.getElementById('appointmentDateDisplay').textContent = appointmentDate;
+        } else {
+            document.getElementById('appointmentDateDisplay').textContent = 'No se seleccionó una fecha.';
+        }
+    </script>
+</body>
+</html>
