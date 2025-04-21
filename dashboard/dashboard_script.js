@@ -9,3 +9,7 @@ document.querySelector('.Cerrar-Sesion').onclick = function () {
 document.querySelector('.btnSolicitarCita').onclick = function () {
     window.location.href = '../request_an_appointment/request_an_appointment_index.html';
 }; /*boton del solicitar cita conectado */
+
+document.querySelector('.btnHistorialClinico').onclick = function () {
+    window.location.href = '../medical_history/medical_history_index.html';
+}; /*boton del solicitar cita conectado */
