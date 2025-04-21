@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Contenedor del encabezado */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: cornflowerblue; /* Azul oscuro consistente */
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Logo del encabezado */
+.logo {
+  font-size: 22px;
+  font-weight: 600; /* Semi-bold para el logo */
+  color: white;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Texto centrado */
+.text {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Contenedor de botones */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilo general para botones */
+.buttons-container button {
+  padding: 8px 16px;
+  background-color: #e6f0ff; /* Azul claro */
+  border: 1px solid cornflowerblue; /* Azul oscuro */
+  color: black; /* Azul oscuro */
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover para botones */
+.buttons-container button:hover {
+  background-color: rgb(85, 119, 182); /* Azul oscuro */
+  color: white; /* Texto blanco */
+}
+
+/* Botón específico para volver */
+.volver-button {
+  background-color: #f0f0f0; /* Gris claro */
+  color: #333; /* Texto gris oscuro */
+  border: 1px solid #ccc;
+}
+
+/* Hover para el botón de volver */
+.volver-button:hover {
+  background-color: #e0e0e0; /* Gris más oscuro */
+}
+
+/* Contenedor principal de la cita */
+.appointment-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Estilo para los campos de cita */
+.appointment-container label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.appointment-container select,
+.appointment-container input[type="date"],
+.appointment-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Contenedor para el botón de continuar */
+.button-container {
+    grid-column: 1 / -1; /* Hace que el contenedor ocupe todas las columnas del grid */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Botón de continuar */
+#continue-button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+#continue-button:hover {
+    background-color: #003580;
+}
+
+/* Estilo para el botón de sede */
+#appointment-location {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid #004aad;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#appointment-location:hover {
+    background-color: #004aad;
+    color: white;
+}

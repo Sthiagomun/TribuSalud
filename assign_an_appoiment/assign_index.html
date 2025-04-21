@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignacion | TribuSalud</title>
+    <link rel="stylesheet" href="../assign_an_appoiment/assign_style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">IPS TribuSalud</div>
+            <div class="text">Asignacion de Cita</div>
+            <div class="buttons-container">
+                <button class="volver-button">Inicio</button>
+                <button class="close-button">Cerrar Sesion</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="appointment-container">
+            <div class="appointment-type">
+                <label for="appointment-type">Tipo de Cita</label>
+                <select id="appointment-type">
+                    <option value="" disabled selected>Selecciona un tipo de cita</option>
+                    <option value="psychology">Acompañamiento Psicológico Virtual</option>
+                    <option value="nutrition">Asesoría Nutricional en Línea</option>
+                    <option value="lab">Autorizaciones Virtuales para Exámenes de Laboratorio</option>
+                    <option value="chat">Chat Médico 24/7</option>
+                    <option value="optometry">Cita con Optometría</option>
+                    <option value="general">Cita General</option>
+                    <option value="specialist">Cita con Especialista</option>
+                </select>
+            </div>
+            <div class="appointment-date">
+                <label for="appointment-date">Fecha</label>
+                <input type="date" id="appointment-date">
+            </div>
+            <div class="appointment-time">
+                <label for="appointment-time">Hora</label>
+                <select id="appointment-time">
+                    <option value="" disabled selected>Selecciona una hora</option>
+                    <option value="8am">8:00 AM</option>
+                    <option value="9am">9:00 AM</option>
+                    <option value="10am">10:00 AM</option>
+                    <option value="11am">11:00 AM</option>
+                    <option value="1pm">1:00 PM</option>
+                    <option value="2pm">2:00 PM</option>
+                    <option value="3pm">3:00 PM</option>
+                    <option value="4pm">4:00 PM</option>
+                </select>
+            </div>
+            <div class="appointment-location">
+                <label for="appointment-location">Sede</label>
+                <button id="appointment-location">IPS TribuSalud</button>
+            </div>
+            <div class="button-container">
+                <button id="continue-button">Continuar</button>
+            </div>
+        </div>
+    </main>
+    <script src="../assign_an_appoiment/assign_script.js"></script>
+</body>
+</html>
