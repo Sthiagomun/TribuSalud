@@ -41,7 +41,6 @@
 /*Estilos del contenido*/
 .cita {
   text-align: left; 
-  max-width: 800px; 
   margin-right: 70px;
   margin-left: 70px;
   font-family: 'Poppins', Arial, sans-serif;
@@ -52,19 +51,22 @@
   font-family: 'Poppins', Arial, sans-serif;
   margin-right: 70px;
   margin-left: 70px;
+  margin-bottom: 70px;
 }
 
 .DatosDelPaciente{
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /*2 columnas iguales*/
-  gap: 90px; /*Espacio entre columnas*/
-  max-width: 900px;
+  grid-template-columns: repeat(3, 1fr); /*2 columnas iguales*/
+  gap: 60px 90px; /*Espacio entre columnas*/
   margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
+  margin-top: 70px;
 }
 
 .SelectDocumento {
   margin-bottom: 20px; /*Espacio debajo del contenido*/
+  grid-column: 1;
+  grid-row: 1;
 }
 .SelectDocumento label {
   display: block; /*Hace que el label este arriba*/
@@ -83,6 +85,8 @@
 
 .SelectNumDocumento {
   margin-bottom: 20px;
+  grid-column: 2;
+  grid-row: 1;
 }
 .SelectNumDocumento label {
   display: block; /*Hace que el label este arriba*/
@@ -100,6 +104,8 @@
 
 .SelectFechaNacimiento {
   margin-bottom: 20px; 
+  grid-column: 3;
+  grid-row: 1;
 }
 .SelectFechaNacimiento label {
   display: block; 
@@ -117,7 +123,9 @@
 }
 
 .SelectNumeroTelefono {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  grid-column: 2;
+  grid-row: 2; 
 }
 .SelectNumeroTelefono label{
   display: block; 
@@ -131,15 +139,15 @@
   background-color: #fff;
   color: #333; 
   border: 1px solid #3a3737;
-  transition: border-color 0.3s;
 }
 
 .Terminos-y-condiciones {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
   font-size: 15px;
+  margin-bottom: 17px;
+  margin-top: 50px;
 }
 .Terminos-y-condiciones a {
   color: #2563eb; /*Azul*/
@@ -148,24 +156,23 @@
   text-decoration: underline;
 }
 .Terminos-y-condiciones input[type="checkbox"] {
-  margin-right: 3px;
   cursor: pointer;
 }
 
 .btnContinuar{
   padding: 8px 17px;
   background-color: cornflowerblue; 
-  color: white; /* Texto en blanco para mejor contraste */
-  border: 1px solid cornflowerblue; /* Borde ligeramente más oscuro */
+  color: white; /*Texto en blanco para mejor contraste*/
+  border: 1px solid cornflowerblue; /*Borde ligeramente más oscuro*/
   border-radius: 3px;
   font-size: 16px;
   font-weight: 500;
   font-family: 'Poppins', Arial, sans-serif;
   cursor: pointer;
   transition: background-color 0.3s;
-  display: block; /* Permite que margin auto funcione */
-  margin: 0 auto; /* Centra el botón horizontalmente */
-  width: fit-content; /* El botón tendrá el ancho de su contenido */
+  display: block; /*Permite que margin auto funcione*/
+  margin: 0 auto; /*Centra el botón horizontalmente*/
+  width: fit-content; /*El botón tendrá el ancho de su contenido*/
 }
 .btnContinuar:hover {
   background-color: rgb(82, 123, 199);
