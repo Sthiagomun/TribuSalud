@@ -7,7 +7,7 @@ document.querySelector('.Cerrar-Sesion').onclick = function () {
 }; /*boton de cerrar sesion conectado*/
 
 document.querySelector('.btnSolicitarCita').onclick = function () {
-    window.location.href = '../request_an_appointment/request_an_appointment_index.html';
+    window.location.href = '../request_an_appointment/request_index.html';
 }; /*boton del solicitar cita conectado */
 
 document.querySelector('.btnHistorialClinico').onclick = function () {
