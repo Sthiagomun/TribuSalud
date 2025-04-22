@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: #0056d2;
+    background-color: cornflowerblue;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -23,7 +23,7 @@ body {
 
 .header button {
     background-color: white;
-    color: #0056d2;
+    color: black;
     border: none;
     padding: 8px 15px;
     border-radius: 5px;

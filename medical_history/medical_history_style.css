@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*Estilos de la navbar*/
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: cornflowerblue;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 600; /* Semi-bold para el logo */
+  color: white;
+  font-family: 'Poppins', Arial, sans-serif;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  gap: 10px; /*Espacio entre botones*/
+}
+.BotonCerrarSesion, .BotonInicio{
+    padding: 4px 10px; /*Espacio interno de los botones*/
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500; /* Medium weight para los botones */
+  cursor: pointer;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-decoration: none;
+}
+.BotonCerrarSesion:hover, .BotonInicio:hover {
+  background-color: #f0f0f0b0;
+  transform: scale(1.03) /*Agranda al pasar el cursor*/
+}
+
+
+
+
+.HistorialClinico {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.HistorialMedico {
+  width: 80%;
+  border: 1px solid #000;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: 'Poppins', Arial, sans-serif;
+  padding: 8px;
+  border-radius: 8px; 
+  font-size: 13px; 
+  background-color: #fbfbfb;
+  color: #333;
+  border: 1px solid #ccc; 
+}
