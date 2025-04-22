@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0056d2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 10px;
+    font-size: 34px;
+}
+
+.Inicio-button {
+    background-color: white;
+    color: #0056d2;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Inicio-button:hover {
+    background-color: #d4cfcf;
+}
+
+.form-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(10, 0, 0, 1.1);
+    width: 400px;
+    margin: 100px auto;
+}
+
+.form-container h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.success-message {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 55px;
+}
+
+.check-icon {
+    font-size: 60px;
+    color: #171718; /* Negro para el ícono */
+    margin: 10px 0;
+}
+
+.btn-primary {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #063a8d;
+}
