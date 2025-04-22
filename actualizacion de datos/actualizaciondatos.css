@@ -1,132 +1,152 @@
 /* actualizaciondatos.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    background-color: #fffafa;
-}
-
-header {
-    background-color: #0056d2;
-    color: white;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px 30px;
 }
 
 .logo {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .text {
     font-size: 18px;
 }
 
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
 .buttons-container button {
-    background-color: rgb(255, 255, 255);
-    color: #0056d2;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 10px;
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 13px;
     cursor: pointer;
-    margin-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .buttons-container button:hover {
-    background-color: #e6e6e6;
+    background-color: #004aad;
+    color: white;
 }
 
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: calc(100vh - 60px);
+    margin-top: 40px; /* Espacio entre el header y el formulario */
 }
 
 .form-container {
-    background: rgb(243, 243, 243);
-    padding: 30px;
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 32px 28px 24px 28px;
     border-radius: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
 }
 
 .form-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 26px;
     color: #333;
+    font-weight: 600;
+    margin-bottom: 24px;
     text-align: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .form-group {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .form-group label {
-    display: block;
     font-size: 14px;
-    margin-bottom: 5px;
-    color: #333;
+    color: #222;
+    font-weight: 500;
 }
 
 .form-group input,
 .form-group select {
-    width: 100%;
     padding: 10px;
-    font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
 }
 
 .form-group input:focus,
 .form-group select:focus {
-    border-color: #0056d2;
     outline: none;
+    border-color: cornflowerblue;
+    background-color: #fff;
 }
 
 .form-group input[type="checkbox"] {
-    width: auto;
-    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    accent-color: cornflowerblue; /* Cambia el color del checkbox */
 }
 
-.form-group a {
-    color: #0056d2;
+.form-group label a {
+    color: #004aad;
     text-decoration: none;
 }
 
-.form-group a:hover {
+.form-group label a:hover {
     text-decoration: underline;
 }
 
 .btn-primary {
-    background-color: #0056d2;
+    background-color: cornflowerblue;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 0;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-top: 10px;
 }
 
 .btn-primary:hover {
-    background-color: #023ea0;
+    background-color: #003580;
 }
 
 #error-message {
-    color: red;
-    font-size: 5px;
-    margin-top: 10px;
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 0;
     display: none;
+    text-align: left;
 }
