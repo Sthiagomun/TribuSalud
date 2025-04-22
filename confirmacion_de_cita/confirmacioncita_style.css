@@ -1,4 +1,4 @@
-/* confirmacioncita_style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,42 +7,46 @@ body {
 }
 
 .header {
-    background-color: cornflowerblue;
-    color: white;
-    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .header h1 {
+    font-size: 22px;
+    font-weight: 600;
     margin: 0;
-    font-size: 34px;
 }
 
 .header button {
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: #e6f0ff;
+    border: 1px solid #004aad;
+    color: #004aad;
+    border-radius: 4px;
+    font-size: 14px;
     cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background-color 0.3s ease;
 }
 
 .header button:hover {
-    background-color: #d4d2d2;
+    background-color: #004aad;
+    color: white;
 }
 
 .form-container {
-    text-align: center;
-    background: #fdfdfd;
-    padding: 30px 40px;
-    border-radius: 05%;
-    box-shadow: 0 4px 6px rgba(5, 0, 3, 2.1);
-    width: 500px;
-    margin: 100px auto;
-    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 .form-container h1 {
@@ -52,9 +56,8 @@ body {
 }
 
 .appointment-details {
-    text-align: left;
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin: 20px 0;
+    font-size: 14px;
     line-height: 1.5;
 }
 
@@ -63,19 +66,14 @@ body {
 }
 
 .check-icon {
-    font-size: 120px; /* Aumenta el tamaño del chulito */
-    color: #282929; /* Cambia el color al azul del encabezado */
-    margin: 30px 0; /* Ajusta el margen superior e inferior */
-    text-align: center; /* Asegura que esté centrado */
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0;
 }
 
-
-
 .confirmation-message {
+    text-align: center;
+    color: #333;
     font-size: 14px;
-    color: #555;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    margin: 20px 0;
 }

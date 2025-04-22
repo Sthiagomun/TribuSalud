@@ -1,0 +1,152 @@
+/* actualizaciondatos.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons-container button {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons-container button:hover {
+    background-color: #004aad;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Espacio entre el header y el formulario */
+}
+
+.form-container {
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    padding: 32px 28px 24px 28px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+}
+
+.form-container h1 {
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: cornflowerblue;
+    background-color: #fff;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    accent-color: cornflowerblue; /* Cambia el color del checkbox */
+}
+
+.form-group label a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.form-group label a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #003580;
+}
+
+#error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 0;
+    display: none;
+    text-align: left;
+}

@@ -1,115 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*Estilos de la navbar*/
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ccc;
-  background-color: cornflowerblue;
-  font-family: 'Poppins', Arial, sans-serif;
-}
-.logo {
-  font-size: 22px;
-  font-weight: 600; /* Semi-bold para el logo */
-  color: white;
-  font-family: 'Poppins', Arial, sans-serif;
-  cursor: pointer;
-}
-.btn-container {
-  display: flex;
-  gap: 10px; /*Espacio entre botones*/
-  }
-.Citas-y-Turnos, .Actualizar-Datos, .Cerrar-Sesion {
-  padding: 4px 10px; /*Espacio interno de los botones*/
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  color: black;
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: 500; /* Medium weight para los botones */
-  cursor: pointer;
-  font-family: 'Poppins', Arial, sans-serif;
-  text-decoration: none;
-}
-.Citas-y-Turnos:hover, .Actualizar-Datos:hover, .Cerrar-Sesion:hover {
-  background-color: #f0f0f0b0;
-  transform: scale(1.03) /*Agranda al pasar el cursor*/
-}
-.profile-button {
-  padding: 4px 10px; /*Espacio interno de los botones*/
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  color: black;
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: 500; /* Medium weight para los botones */
-  cursor: pointer;
-  font-family: 'Poppins', Arial, sans-serif;
-  text-decoration: none;
-}
-.profile-button:hover {
-  background-color: #f0f0f0b0;
-  transform: scale(1.03) /*Agranda al pasar el cursor*/
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/*Estilos del contenido*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.btn-container {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-container button {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 4px 10px;      /* Más pequeño */
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 12px;        /* Más pequeño */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-container button:hover {
+    background-color: #004aad;
+    color: white;
+}
+
 .Inicio {
-  margin-top: 70px; /*Espacio arriba del contenido*/
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    max-width: 600px;
+    margin: 40px auto 20px auto;
+    padding: 32px 32px 24px 32px;
 }
-.text-banner {
-  text-align: left; /*Alineación a la izquierda*/
-  max-width: 800px; 
-  margin-right: 70px;
-  margin-left: 70px;
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 22px;
+
+.Contenido {
+    text-align: center;
 }
+
+.text-banner h2 {
+    color: cornflowerblue;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.text-banner h1 {
+    font-size: 28px;
+    color: #222;
+    margin: 0 0 12px 0;
+    font-weight: 700;
+}
+
+.text-banner p {
+    color: #333;
+    font-size: 15px;
+    margin: 0;
+}
+
 .Inicio2 {
-  margin-top: 43px; /*Espacio arriba del contenido*/
-  margin-bottom: 70px; /*Espacio bajo del contenido*/
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 28px 32px;
 }
+
 .subtitulo {
-  text-align: left; /*Alineación a la izquierda*/
-  max-width: 800px;
-  margin-right: 70px;
-  margin-left: 70px;
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 22px;
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
 }
+
 .serviciosmasusados {
-  display: flex;
-  justify-content: flex-start;
-  gap: 40px; /* Espacio entre columnas */
-  align-items: flex-start;
-  margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    flex-wrap: wrap;
 }
-.serviciosmasusados-1, .serviciosmasusados-2{
-  display: flex;
-  flex-direction: column; /*Organiza en columna*/
-  gap: 10px;
-  align-items: center;
+
+.serviciosmasusados-1, .serviciosmasusados-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
 }
-.img1, .img2 {
-  width: 40px;
-  height: 40px;
+
+.serviciosmasusados-1 img,
+.serviciosmasusados-2 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
 }
-.btnCancelarCita , .btnSolicitarCita, .btnHistorialClinico {
-  padding: 4px 10px;
-  background-color: cornflowerblue; 
-  color: white; /* Texto en blanco para mejor contraste */
-  border: 1px solid cornflowerblue; /* Borde ligeramente más oscuro */
-  border-radius: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Poppins', Arial, sans-serif;
-  cursor: pointer;
-  transition: 0.3s;
-  width: 150px; /* los botones tendran el mismo ancho */
-  text-decoration: none;
+
+.serviciosmasusados-1 button,
+.serviciosmasusados-2 button {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid #004aad;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    transition: background-color 0.3s, color 0.3s;
 }
-.btnCancelarCita:hover , .btnSolicitarCita:hover, .btnHistorialClinico:hover {
-  background-color: rgb(82, 123, 199);
-  transform: scale(1.03)
+
+.serviciosmasusados-1 button:hover,
+.serviciosmasusados-2 button:hover {
+    background-color: #004aad;
+    color: white;
 }

@@ -9,7 +9,7 @@
 <body>
     <div class="header">
         <h1>IPS | TribuSalud</h1>
-        <button onclick="window.location.href='index.html'">Volver</button>
+        <button class="volver-button">Volver</button>
     </div>
 
     <div class="form-container">
@@ -28,16 +28,7 @@
         </p>
     </div>
 
-    <script>
-        // Obtén la fecha guardada en el almacenamiento local
-        const appointmentDate = localStorage.getItem('appointmentDate');
-
-        // Muestra la fecha en la página de confirmación
-        if (appointmentDate) {
-            document.getElementById('appointmentDateDisplay').textContent = appointmentDate;
-        } else {
-            document.getElementById('appointmentDateDisplay').textContent = 'No se seleccionó una fecha.';
-        }
-    </script>
+    <script src="confirmacioncita_script.js"></script> <!-- Archivo JavaScript externo -->
+    </scrip>
 </body>
 </html>
