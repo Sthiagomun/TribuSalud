@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion | TribuSalud</title>
+    <link rel="stylesheet" href="request_style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">IPS | TribuSalud</div>
+            <div class="buttons-container">
+                <button class="button info">Inicio</button>
+                <button class="button login">Cerrar Sesión</button>
+            </div>
+        </div>
+    </header>
+    <!-- Campos de login -->
+    <div class="request-form">
+        <div class="input-group">
+            <label for="document-type">Tipo de Documento:</label>
+            <select id="document-type" name="document-type" required>
+                <option value="" disabled selected>Seleccione tipo de documento</option>
+                <option value="cc">Cédula de Ciudadanía</option>
+                <option value="ce">Cédula de Extranjería</option>
+                <option value="ti">Tarjeta de Identidad</option>
+                <option value="passport">Pasaporte</option>
+            </select>
+            <div>
+                <label for="document-number">Número de documento:</label>
+                <input type="text" id="document-number" name="document-number" placeholder="Número de documento" required>
+            </div>
+            <div>
+                <label for="born-date">Fecha de nacimiento:</label>
+                <input type="date" id="appointment-date" name="appointment-date" placeholder="Fecha de la nacimiento" required>
+            </div>
+            <div>
+                <label for ="number-phone">Número de teléfono:</label>
+                <input type="text" id="number-phone" name="number-phone" placeholder="Número de teléfono" required>
+            </div>
+            <div class="checkbox-group">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <span class="checkmark"></span>
+                    <span class="terms-text">Acepto los <a href="../terms/terms_index.html">Términos y condiciones</a></span>
+                </label>
+            </div>
+            <div class="continue-button">
+                <button type="submit" id="continue-button">Continuar</button>
+            </div>
+        </div>
+    </div>
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="request_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: cornflowerblue;
+    color: white;
+}
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    padding: 8px 16px;
+    background-color: #e6f0ff; /* Azul claro */
+    border: 1px solid cornflowerblue; /* Borde azul oscuro */
+    color: cornflowerblue; /* Texto azul oscuro */
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #004aad;
+    color: white;
+}
+
+/* Específico para el botón de inicio */
+.button.info {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid #004aad;
+}
+
+/* Específico para el botón de cerrar sesión */
+.button.login {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid #004aad;
+}
+
+.request-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.input-group select,
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-group select {
+    background-color: white;
+    cursor: pointer;
+}
+
+.input-group select:focus,
+.input-group input:focus {
+    outline: none;
+    border-color: #004aad;
+    box-shadow: 0 0 5px rgba(0, 74, 173, 0.2);
+}
+
+.input-group input::placeholder {
+    color: #999;
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 10px; /* Posiciona el ícono dentro del input */
+    font-size: 18px;
+    color: #777;
+}
+.input-group .icon-right {
+    position: absolute;
+    right: 10px; /* Posiciona el ícono a la derecha */
+    font-size: 18px;
+    color: #777;
+    cursor: pointer; /* Para íconos interactivos como mostrar/ocultar contraseña */
+}
+.user-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    left: 5px; /* Mueve el ícono más hacia la izquierda */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+}
+.lock-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    left: 5px; /* Mueve el ícono más hacia la izquierda */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+}
+.eye-icon {
+    width: 20px; /* Ajusta el ancho del ícono */
+    height: 20px; /* Ajusta la altura del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    position: absolute; /* Posiciona el ícono dentro del contenedor */
+    right: 10px; /* Alinea el ícono a la derecha del input */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajusta el centrado vertical */
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.actions button {
+    width: 48%; /* Asegura que los botones tengan el mismo tamaño */
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Poppins', Arial, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+.actions button:hover {
+    background-color: white;
+    color: rgb(75, 111, 177);
+}
+.checkbox-group {
+    margin-top: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.terms-text {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.terms-text a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.terms-text a:hover {
+    text-decoration: underline;
+}
+
+.continue-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#continue-button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+#continue-button:hover {
+    background-color: rgb(62, 91, 145);
+}
