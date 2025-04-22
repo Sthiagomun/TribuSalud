@@ -13,3 +13,11 @@ document.querySelector('.btnSolicitarCita').onclick = function () {
 document.querySelector('.btnHistorialClinico').onclick = function () {
     window.location.href = '../medical_history/medical_history_index.html';
 }; /*boton del solicitar cita conectado */
+document.querySelector('.Actualizar-Datos').onclick = function () {
+    window.location.href = '../actualizacion de datos/actualizaciondatos_index.html';
+}
+/*boton del solicitar cita conectado */
+document.querySelector('.Citas-y-Turnos').onclick = function () {
+    window.location.href = '../request_an_appointment/request_index.html';
+}
+/*boton del solicitar cita conectado */
