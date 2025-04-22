@@ -17,3 +17,7 @@ document.querySelector('.btnHistorialClinico').onclick = function () {
 document.querySelector('.Citas-y-Turnos').onclick = function () {
     window.location.href = '../request_an_appointment/request_an_appointment_index.html';
 }; /*boton de citas y turnos conectado */
+
+document.querySelector('.btnCancelarCita').onclick = function () {
+    window.location.href = '../appointment_cancellation/appointment_cancellation_index.html';
+}; /*boton de cancelar cita conectado */
