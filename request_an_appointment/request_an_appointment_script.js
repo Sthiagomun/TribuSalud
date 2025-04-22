@@ -5,3 +5,7 @@ document.querySelector('.btnInicio').onclick = function () {
 document.querySelector('.btnCerrarSesion').onclick = function () {
     window.location.href = '../login/login.html';
 }; /*boton de cerrar sesion conectado */
+
+document.querySelector('.btnContinuar').onclick = function () {
+    window.location.href = '../assign_an_appoiment/assign_index.html';
+}; /*boton continuar conectado */
