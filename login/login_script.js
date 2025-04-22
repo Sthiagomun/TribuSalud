@@ -13,7 +13,7 @@ document.getElementById('login-button').onclick = function () {
 };
 
 document.getElementById('register-button').onclick = function () {
-    window.location.href = '/register/register_index.html'; // Cambia a la página de registro
+    window.location.href = '../register/register_index.html'; // Cambia a la página de registro
 };
 
 // Mostrar u ocultar la contraseña
