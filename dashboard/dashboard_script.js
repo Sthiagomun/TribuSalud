@@ -12,4 +12,8 @@ document.querySelector('.btnSolicitarCita').onclick = function () {
 
 document.querySelector('.btnHistorialClinico').onclick = function () {
     window.location.href = '../medical_history/medical_history_index.html';
-}; /*boton del solicitar cita conectado */
+}; /*boton del historial clinico conectado */
+
+document.querySelector('.Citas-y-Turnos').onclick = function () {
+    window.location.href = '../request_an_appointment/request_an_appointment_index.html';
+}; /*boton de citas y turnos conectado */
