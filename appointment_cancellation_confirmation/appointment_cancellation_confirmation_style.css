@@ -38,6 +38,28 @@
     transform: scale(1.03) 
 }
 
+.btn button,
+.btnCerrarSesion,
+.btnInicio {
+    background-color: #e6f0ff;
+    color: #004aad;
+    border: 1px solid #004aad;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 8px;
+}
+
+.btn button:hover,
+.btnCerrarSesion:hover,
+.btnInicio:hover {
+    background-color: #004aad;
+    color: white;
+}
+
 .CancelacionDeCita{
     font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
